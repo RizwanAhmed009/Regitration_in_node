@@ -1,0 +1,29 @@
+
+    ===========================
+    Time: 2025-03-27T07:41:46.150Z
+    Method: GET
+    URL: /api/auth/getAllUser
+    Status: 200
+    Message: Table 'auth_db.userss' doesn't exist
+    Stack Trace: Error: Table 'auth_db.userss' doesn't exist
+    at PromisePool.query (E:\aksa_pratices_task\authentication\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at getAllUser (E:\aksa_pratices_task\authentication\Controller\controller.js:106:42)
+    at Layer.handle [as handle_request] (E:\aksa_pratices_task\authentication\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\aksa_pratices_task\authentication\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\aksa_pratices_task\authentication\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\aksa_pratices_task\authentication\node_modules\express\lib\router\layer.js:95:5)
+    at E:\aksa_pratices_task\authentication\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\aksa_pratices_task\authentication\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\aksa_pratices_task\authentication\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\aksa_pratices_task\authentication\node_modules\express\lib\router\index.js:175:3)
+    ===========================
+    
+    ===========================
+    Time: 2025-04-11T10:18:57.758Z
+    Method: POST
+    URL: /api/auth/api/upload
+    Status: 200
+    Message: ENOENT: no such file or directory, open 'E:\aksa_pratices_task\authentication\uploads\RizwanPic.jpg'
+    Stack Trace: Error: ENOENT: no such file or directory, open 'E:\aksa_pratices_task\authentication\uploads\RizwanPic.jpg'
+    ===========================
+    
